@@ -1,0 +1,22 @@
+
+section {
+    margin: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #666;
+}
+
+
+a {
+    color: #007BFF;
+}
+
+/* Estilo para los enlaces al pasar el mouse sobre ellos */
+a:hover {
+    text-decoration: underline;
+}

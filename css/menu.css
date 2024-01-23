@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Añade esta línea para distribuir el contenido en el eje horizontal */
+    align-items: center; /* Añade esta línea para centrar verticalmente el contenido */
+}
+
+header h1 {
+    font-size: 2em;
+    margin-right: 20px; /* Añade este margen para separar el h1 del nav */
+}
+
+nav {
+    display: flex;
+    margin: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+    background-color: #555;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
